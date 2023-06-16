@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("Imagen/bg-pattern-bottom-Profile\ card\ component.svg") bottom -500px
+      right -290px no-repeat,
+    url("Imagen/bg-pattern-top-Profile\ card\ component.svg") top -600px left -300px
+      no-repeat;
+  width: 90rem;
+  height: 45rem;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(185, 75%, 39%);
+}
+hr {
+  height: 0.8px;
+  width: 96%;
+  background-color: hsl(0, 0%, 59%);
+}
+.container {
+  width: 21.875rem;
+  height: 23.125rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px 10px;
+  background-color: white;
+}
+
+header {
+  border-radius: 10px 10px 0px 0px;
+  width: 21.875rem;
+  height: 8.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  flex-direction: column;
+  background: url("Imagen/bg-pattern-card-Profile card component.svg") no-repeat;
+}
+
+header > img:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -130px;
+  border: 5px solid white;
+
+  border-radius: 60px;
+}
+
+section {
+  width: 22.1875rem;
+  height: 11.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.personal-info {
+  width: 8.75rem;
+  height: 2.8125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.personal-info > h1 {
+  font-size: 1.125rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.personal-info > h1 > span {
+  font-size: 0.9375rem;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(0, 0%, 59%);
+}
+.personal-info > p {
+  font-size: 0.9375rem;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(0, 0%, 59%);
+}
+.rate-info {
+  width: 15.625rem;
+  height: 2.7rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2.5rem;
+}
+
+.rate-info > h3 {
+  font-size: 1.125rem;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(229, 23%, 23%);
+}
+.rate-info > h3 > span {
+  font-size: 0.625rem;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: url("Imagen/bg-pattern-bottom-Profile\ card\ component.svg") top
+        200px left 170px no-repeat,
+      url("Imagen/bg-pattern-top-Profile\ card\ component.svg") top -760px left -500px
+        no-repeat;
+    width: 375px;
+    height: 670px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(185, 75%, 39%);
+  }
+  hr {
+    height: 0.8px;
+    width: 96%;
+    background-color: hsl(0, 0%, 59%);
+  }
+  .container {
+    width: 350px;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px 10px;
+
+    background-color: white;
+  }
+
+  header {
+    border-radius: 10px 10px 0px 0px;
+    width: 21.875rem;
+    height: 8.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    flex-direction: column;
+    background: url("Imagen/bg-pattern-card-Profile card component.svg") no-repeat;
+  }
+
+  header > img:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -130px;
+    border: 5px solid white;
+
+    border-radius: 60px;
+  }
+
+  section {
+    width: 22.1875rem;
+    height: 11.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .personal-info {
+    width: 8.75rem;
+    height: 2.8125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .personal-info > h1 {
+    font-size: 1.125rem;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+
+  .personal-info > h1 > span {
+    font-size: 0.9375rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(0, 0%, 59%);
+  }
+  .personal-info > p {
+    font-size: 0.9375rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(0, 0%, 59%);
+  }
+  .rate-info {
+    width: 15.625rem;
+    height: 2.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.5rem;
+  }
+
+  .rate-info > h3 {
+    font-size: 1.125rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(229, 23%, 23%);
+  }
+  .rate-info > h3 > span {
+    font-size: 0.625rem;
+    font-family: "Kumbh Sans", sans-serif;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+  }
+}
